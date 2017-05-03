@@ -16919,6 +16919,24 @@ var Popover = function ($) {
 }();
 (function() {
   $(document).ready(function() {
+    $('.switcher').click(function() {
+      var cd_val, cur_val;
+      cur_val = $('#currency').val();
+      cd_val = $('#currency_destination').val();
+      $('#currency').val(cd_val);
+      $('#currency_destination').val(cur_val);
+      return $('form').submit();
+    });
+    $('#quantity').keyup(function() {
+      if ($('#quantity').val().length > 0) {
+        return $('form').submit();
+      }
+    });
+    $('#quantity').mouseup(function() {
+      if ($('#quantity').val().length > 0) {
+        return $('form').submit();
+      }
+    });
     return $('form').submit(function() {
       if ($('form').attr('action') === '/exchange') {
         $.ajax('/exchange', {

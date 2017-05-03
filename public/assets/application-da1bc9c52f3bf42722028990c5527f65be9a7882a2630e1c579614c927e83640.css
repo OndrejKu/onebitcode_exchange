@@ -11131,3 +11131,14 @@ body {
   border-color: #5bc0de;
   border-radius: 0;
 }
+
+/* line 24, /usr/src/app/app/assets/stylesheets/_exchange_box.scss */
+.switcher {
+  text-align: center;
+  margin: 15px;
+  cursor: pointer;
+}
+/* line 28, /usr/src/app/app/assets/stylesheets/_exchange_box.scss */
+.switcher img {
+  width: 50px;
+}
