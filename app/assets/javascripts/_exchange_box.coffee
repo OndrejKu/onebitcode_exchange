@@ -1,4 +1,12 @@
 $(document).ready ->
+  $('#quantity').keyup ->
+    if $('#quantity').val().length > 0
+      $('form').submit()
+
+  $('#quantity').mouseup ->
+    if $('#quantity').val().length > 0
+      $('form').submit()
+
   $('form').submit ->
     if $('form').attr('action') == '/exchange'
       $.ajax '/exchange',
