@@ -14,6 +14,9 @@
             <input type="number" name="quantity" id="quantity" class="form-control" placeholder="Quantidade ($10)" step="any" required>
           </div>
         </div>
+        <div class="switcher">
+          <img src="switch.png">
+        </div>
         <div class="destination_currency">
           <div class="form-group">
             <p class="title">Moeda Pretendida</p>
@@ -23,9 +26,7 @@
             <input type="text" id="result" name="result" class="form-control" placeholder="Resultado" readonly>
           </div>
         </div>
-        <div>
-          <button type="submit" class="btn btn-primary btn-exchange col-md-12">CONVERTER</button>
-        </div>
+        <input type="submit" style="position: absolute; left: -9999px; width: 1px; height: 1px;" value="CONVERTER">
       <% end %>
     </div>
   </div>

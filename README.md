@@ -1,25 +1,22 @@
-# README
+# Onebitcode Exchange
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is showcase to demonstrate simple usage of external API. The API converts value from one currency to another based on user's input.
 
-Things you may want to cover:
+Demo website: https://onebitexchange.herokuapp.com/
 
-* Ruby version
+Technologies used in this app:
 
-* System dependencies
+* Docker
 
-* Configuration
+* Docker Compose
 
-* Database creation
+* Capybara
 
-* Database initialization
+* RSpec
 
-* How to run the test suite
+* Coffeescript 
 
-* Services (job queues, cache servers, search engines, etc.)
+* Bootstrap 4
 
-* Deployment instructions
+If you are interested on more details about this project or you would like to hire me, please visit my profile: https://www.linkedin.com/in/ondrejkubala/
 
-* ...
-# onebitcode_exchange
